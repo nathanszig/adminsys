@@ -20,7 +20,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - run: git pull origin master
+    - run: cd /
+    - run: cd express
     - uses: actions/checkout@v3
     - name: Afficher le contenu du répertoire de travail
       run: |
