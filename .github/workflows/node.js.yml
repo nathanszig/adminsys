@@ -21,6 +21,7 @@ jobs:
 
     steps:
     - run: cd /
+    - run: ls -la
     - run: cd express
     - uses: actions/checkout@v3
     - name: Afficher le contenu du répertoire de travail
