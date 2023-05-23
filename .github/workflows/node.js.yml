@@ -21,6 +21,7 @@ jobs:
 
     steps:
     - run: git pull origin master
+      working-directory: /express
     - name: Afficher le contenu du répertoire de travail
       run: |
           ls -la
